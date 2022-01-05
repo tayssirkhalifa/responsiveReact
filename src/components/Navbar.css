@@ -1,0 +1,106 @@
+.navbar-container{
+    height: 60px;
+}
+
+@media only screen and (max-width: 380px) {
+  .navbar-container {
+    height: 60px;
+  }
+}
+.wrapper{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 380px ) {
+  .navbar-container {
+    height: 60px;
+      padding: 10px 0px;
+  }
+}
+.Left{
+flex:1;
+display: flex;
+align-items: center;
+}
+
+@media only screen and (max-width: 380px ) {
+  .Left {
+    display: flex;
+   margin-left: 0px;
+  }
+}
+.center{
+    flex:1;
+    display: flex;
+      align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+
+.right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+@media only screen and (max-width: 380px ) {
+  .right {
+    justify-content: center;
+    flex:2;
+  }
+}
+.language{
+    font-style: 14px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 380px ) {
+  .language {
+    display: none;
+  }
+}
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey
+    ;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 380px ) {
+  .navbar-input {
+   width: 50px;
+   margin-left:0px;
+  }
+}
+.navbar-input{
+    border: none;
+
+
+}
+
+.logo{
+    font-weight: bold;
+  
+   
+}
+@media only screen and (max-width: 380px ) {
+  .logo {
+   font-size: 20px;
+  }
+}
+.MenuItem{
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 24px;
+}
+@media only screen and (max-width: 380px ) {
+  .MenuItem {
+  font-size: 12px;
+   margin-left:10px;
+  }
+}
